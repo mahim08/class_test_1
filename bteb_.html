@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<!-- Font awesome -->
+	<link rel="stylesheet" href="font/css/font-awesome.min.css" />
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+
+	<style>
+		body{
+			padding: 0;
+			margin: 0;
+		}
+		.logo-img{
+			max-width: 150px;
+			padding-top: 10px;
+		}
+		.nav{
+			display: flex;
+			justify-content: space-between;
+			background-color: blue;
+		}
+		.list{
+			list-style-type: none;
+			display: flex;
+			/*line-height: 40px;*/
+		}
+		.list-items{
+			padding: 4px;
+			border: 1px solid black;
+			border-radius: 0px;
+			margin: 4px;
+		}
+		.list-items button{
+			text-decoration: none;
+			padding: 2px;
+			border: 1px solid green;
+			border-radius: 1px;
+			color: black;
+			font-weight: bold;
+		}
+		.menu .list .list-items:first-child{
+			background-color: white;
+		}
+		.menu .list .list-items:nth-child(2){
+			background-color: green;
+		}
+		/*.menu .list .list-items:nth-child(3){
+			background-color: blue;
+		}*/
+		.menu .list .list-items:last-child{
+			background-color: white;
+		}
+		.row{
+			border: 1px dotted;
+			padding: 3px;
+			margin: 4px;
+		}
+		.first_image{
+			height: 300px;
+			width: 1120px;
+		}
+		.title-bar{
+			color: white;
+		}
+		.menu_details{
+			padding: 2px;
+			display: flex;
+		}
+		.detail{
+			border: dotted;
+			display: inline-grid;
+			padding: 10px;
+			/*margin: 4px;*/
+		}
+		.national_port_card{
+			height: 400px;
+			width: 800px;
+		}
+		.body{
+			padding: 4px;
+		}
+		.list2{
+			display: flex;
+		}
+		.box1{
+			margin: 2px;
+			padding: 1px;
+			border: 1px black;
+			box-shadow: 1px black;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="body">
+	<div class="container">
+	<div class="nav">
+		<div class="logo">
+			<p class="title-bar">বাংলাদেশ জাতীয় তথ্য বাতায়ন</p>		
+		</div>
+		<div class="menu">
+			<ul class="list">
+				<li class="list-items"><input type="text"></li>
+				<li class="list-items"><button>Search</button></li>
+				<li class="list-items"><button>English</button></li>
+			</ul>
+		</div>
+	</div>
+	<img src="http://www.bteb.gov.bd/sites/default/files/files/bteb.portal.gov.bd/top_banner/a71552ad_90cd_43d7_ad29_6a030f6276d6/dengue.jpg" alt="!" class="first_image">
+	<div class="container-fluid">
+		<div class="menu_details">
+			<p class="detail">আমাদের সম্পর্কে</p>
+			<p class="detail">পাঠযক্রম</p>
+			<p class="detail">শিক্ষকদের তথয</p>
+			<p class="detail">প্রকাশনা</p>
+			<p class="detail">রেজাল্ট</p>
+			<p class="detail">ফটোগযালারী</p>
+			<p class="detail">ডাউনলোড</p>
+			<p class="detail">NTVQF ওয়েবসাইট</p>
+			<p class="detail">তথয প্রাপ্তির জনয যোগাযোগ</p>
+			
+		</div>
+	</div>
+
+	<!-- <div class="nav2">
+		<div class="list2">
+			
+			<p class="">
+				<!-- <img src="http://www.bteb.gov.bd/National-Portal-Card-PM.jpeg" alt="!" class="national_port_card"> -->
+				<p class="" align="right">minister</p>
+				<br>
+				<p class="" align="right"><img src="" alt="Dipu moni"></p>
+				<br>
+				<p class="" align="right">ড. দিপু মনি</p>
+				<br>
+				<p class="" align="right">ড. দিপু মনি বিস্তারিত</p>
+				<br>
+			</p>
+			<!-- <p class="list2">
+				<p class="" align="right">minister</p>
+				<br>
+				<p class="" align="right"><img src="" alt="Dipu moni"></p>
+				<br>
+				<p class="" align="right">ড. দিপু মনি</p>
+				<br>
+				<p class="" align="right">ড. দিপু মনি বিস্তারিত</p>
+				<br>
+			</p>
+			<p class="list2">
+				<p class="" align="right">minister</p>
+				<br>
+				<p class="" align="right"><img src="" alt="Dipu moni"></p>
+				<br>
+				<p class="" align="right">ড. দিপু মনি</p>
+				<br>
+				<p class="" align="right">ড. দিপু মনি বিস্তারিত</p>
+				<br>
+			</p>
+			<p class="list2">
+				<p class="" align="right">minister</p>
+				<br>
+				<p class="" align="right"><img src="" alt="Dipu moni"></p>
+				<br>
+				<p class="" align="right">ড. দিপু মনি</p>
+				<br>
+				<p class="" align="right">ড. দিপু মনি বিস্তারিত</p>
+				<br>
+			</p>
+			<p class="list2">
+				<p class="" align="right">minister</p>
+				<br>
+				<p class="" align="right"><img src="" alt="Dipu moni"></p>
+				<br>
+				<p class="" align="right">ড. দিপু মনি</p>
+				<br>
+				<p class="" align="right">ড. দিপু মনি বিস্তারিত</p>
+				<br> -->
+			</p>
+	<!--</div>
+	</div> -->
+	<div class="box1">
+		<p>বিজ্ঞপ্তি</p>
+		<ul>
+			<li>ডিপ্লোমা পর্যায়</li>
+			<li>এইচ এস সি পর্যায়</li>
+			<li>এস এস সি পর্যায়</li>
+			<li>স্বল্প মেয়াদী ও অন্যান্য</li>
+		</ul>
+	</div>
+</div>
+</div>
+</body>
+</html>
